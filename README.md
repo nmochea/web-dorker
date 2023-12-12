@@ -26,13 +26,13 @@ Web Docker welcomes contributions from the community. If you are interested in c
 
 To get started with Web Docker, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/web-docker.git`.
+1. Clone the repository: `git clone https://github.com/nmochea/web-docker.git`.
 2. Install the necessary dependencies: `npm install` or `yarn install`.
 3. Run the application: `npm start` or `yarn start`.
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub Issues](https://github.com/your-username/web-docker/issues) page.
+If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub Issues](https://github.com/nmochea/web-docker/issues) page.
 
 ## License
 
