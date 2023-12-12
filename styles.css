@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #444;
+}
+
+.container {
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+option {
+  width:50%;
+}
+
+.social-icons {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #444;
+}
+
+.social-icons a:hover i.fab.fa-linkedin {
+  color: #0077b5;
+}
+
+.social-icons a:hover i.fab.fa-medium {
+  color: #00ab6c;
+}
+
+.social-icons a:hover i.fab.fa-google {
+  color: #d85031;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label,
+select,
+input,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+}

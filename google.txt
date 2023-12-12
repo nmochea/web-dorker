@@ -1,0 +1,30 @@
+site:${target} intitle:index.of
+site:${target} ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext
+site:${target} ext:sql | ext:dbf | ext:mdb
+site:${target} inurl:wp- | inurl:wp-content | inurl:plugins | inurl:uploads | inurl:themes | inurl:download
+site:${target} inurl:wp-content | inurl:wp-includes
+site:${target} ext:log
+site:${target} ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+site:${target} filetype:config "apache"
+site:${target} inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config
+site:${target} ext:action | ext:struts | ext:do
+site:${target} ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+inurl:"/.git" ${target} -github
+site:${target} ext:php intitle:phpinfo 'published by the PHP Group'
+site:${target} inurl:"/phpinfo.php" | inurl:".htaccess"
+site:${target} inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor
+site:${target} inurl:redir | inurl:url | inurl:redirect | inurl:return | inurl:src=http | inurl:r=http
+site:*.${target}
+site:*.*.${target}
+site:atlassian.net | site:bitbucket.org "${target}"
+.site:github.com | site:gitlab.com "${target}"
+inurl:${target} ext:swf
+site:.s3.amazonaws.com "${target}"
+site:${target} filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:jws?wsdl
+site:digitaloceanspaces.com "${target}"
+site:${target} intext:submit | intext:"Is this article helpful" | intext:feedback | intext:"Demo Request"
+site:${target} intitle:submit | intitle:contact | intitle: submit | intitle:feedback | intitle:survey | intitle:form | intitle:"fill up"
+site:${target} inurl:contact | inurl:feedback | inurl:survey | inurl:form
+site:${target} intitle:signup | intitle:register | intext:signup | intext:"sign up" | intext:register | intext:username
+site:${target} inurl:signup | inurl:register
+site:${target} intitle:contact | intext:"contact us" | intext:survey | intitle:survey
