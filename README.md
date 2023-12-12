@@ -27,8 +27,13 @@ Web Docker welcomes contributions from the community. If you are interested in c
 To get started with Web Docker, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/nmochea/web-docker.git`.
-2. Install the necessary dependencies: `npm install` or `yarn install`.
-3. Run the application: `npm start` or `yarn start`.
+2. Navigate to the project directory: `cd web-docker`.
+3. Start a PHP server: If you have PHP installed, you can use the built-in server by running the following command:
+```bash
+   php -S localhost:8000
+```
+4. This will start a PHP server at http://localhost:8000.
+5. Open your web browser and visit http://localhost:8000 to access the application.
 
 ## Issues
 
